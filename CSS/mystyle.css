@@ -1,0 +1,63 @@
+<style type = "text/css">
+h1   {color: rgb(5, 5, 97);}
+h2   {color: rgb(4, 4, 63);}
+p    {color: rgb(114, 11, 11);}
+</style>
+
+<style type="text/css"> 
+        .container {
+            width:300px;
+            height:90px;
+            padding-top:10px;
+            padding-left:15px;
+            padding-right:15px;
+        }
+        
+* {
+    box-sizing: border-box;
+  }
+.box {
+    float: left;
+    width: 20%;
+    height:150px;
+    padding: 50px;
+   
+  }
+  
+  
+  
+</style>
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: ;
+  background-size: cover;
+}
+
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #4c4c4c;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4c4c4c;
+}
